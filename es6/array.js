@@ -68,7 +68,7 @@ fillArray();
 
 
 //4.数组的遍历
-const forEachArr = () => {
+const forEachArray = () => {
     let array = Array.of(1,2,3,4,5,6);
     //1）keys()是对键名的遍历
     for(let index of array.keys()) {
@@ -88,4 +88,6 @@ const forEachArr = () => {
 
     // console.log(array);
 }
-forEachArr();
+forEachArray();
+
+export{convertToArray, findInArray, fillArray, forEachArray};
