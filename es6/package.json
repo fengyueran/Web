@@ -1,0 +1,22 @@
+{
+  "name": "es6",
+  "version": "1.0.0",
+  "description": "es6 note",
+  "main": "es6.js",
+  "dependencies": {
+    "eslint": "^3.18.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-core": "^6.24.0",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-stage-1": "^6.22.0",
+    "eslint": "^3.18.0",
+    "eslint-plugin-react": "^6.10.2"
+  },
+  "scripts": {
+    "test": "start es6"
+  },
+  "author": "",
+  "license": "ISC"
+}

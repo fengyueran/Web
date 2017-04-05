@@ -1,3 +1,4 @@
+/* eslint-disable */
 const timeout = (ms) => {
   return new Promise((resolve,reject) => {
     //Promise新建后立即执行
@@ -45,3 +46,9 @@ const timeout1 = (ms) => {
   });
 }
 timeout1(1000);
+
+const helloword = () => {
+  console.log('hello world');
+}
+export default {timeout, timeout1};
+export {helloword};

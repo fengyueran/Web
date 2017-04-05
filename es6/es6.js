@@ -24,27 +24,6 @@ function testAssign() {
   console.log(jsonData.id)//42
 }
 
-function testArray() {
-  let arr = [1,2,3,4];
-  arr.forEach(function(p) {
-    //console.log(p)
-  });
-
-  let arrayLike = {
-    '0': 'a',
-    '1': 'b',
-    '2': 'c',
-    length: 3
-};
-//转换为真正的数组，Array.from
- let realArr = Array.from(arrayLike);
- //转换为真正的数组，扩展运算符（...）
- //let realArr1 =[...arrayLike];
- realArr.forEach(function(p) {
-   console.log(p)
- });
-}
-
 function testFuction() {
   //rest参数
   //ES6 引入 rest 参数（形式为“...变量名”），用于获取函数的多余参数，这样就不需要使用arguments对象了。rest 参数搭配的变量是一个数组，该变量将多余的参数放入数组中。
@@ -123,7 +102,7 @@ const testArrowFunction = (x) => {
      setTimeout(function () {
       console.log('id:', _this.id);
      }, 100);
-    }
+  }
 
     // const seriesArrowFunc = (a)=>(b)=>(c)=>a+b+c;
     const seriesArrowFunc = (a)=> {
@@ -141,6 +120,5 @@ const testArrowFunction = (x) => {
 
 testVariable();
 testAssign();
-testArray();
 testFuction();
 testArrowFunction(1000);
